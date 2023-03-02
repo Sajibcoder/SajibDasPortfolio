@@ -1,0 +1,32 @@
+import React from 'react'
+import Header from '../components/Header'
+import './Contact.scss'
+
+const Contact = () => {
+  return (
+    <section id="contact" className="contact">
+      <Header
+        headerText="Contact Me"
+        // icon={<BsInfoCircleFill size={40} />}
+
+      />
+       <div className="get-in-touch">
+<h3>GET IN TOUCH</h3>
+<input type="text" placeholder='Your Name' />
+<input type="email" placeholder='Email Id' />
+<textarea rows="8" placeholder="Message" ></textarea>
+<button className='button'>Send</button>
+<div className='traditional'>
+Wanna contact the traditional way? drop a mail here 
+<div className='email-col'>sajib.brp@gmail.com</div>
+</div>
+</div>
+<div className="footer">
+  <img className='copyright' src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Copyright-serif.svg" alt="" />
+     2023 Sajib Das, All Rights Reserved.
+</div>
+</section>
+  )
+}
+
+export default Contact

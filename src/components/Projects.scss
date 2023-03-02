@@ -1,0 +1,42 @@
+.project-image{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+   gap: 20px;
+    list-style: none;
+    background-color: rgb(1, 20, 38);
+    img{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        margin-top: 20px;
+        width: 300px;
+        height: 300px;
+    }
+    h1{
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+    }
+   a{
+    color: white;
+    width: 30%;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 10px;
+    font-size: 18px;
+ 
+   
+   }
+}
+
+
+    
+  

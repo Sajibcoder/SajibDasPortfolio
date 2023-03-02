@@ -1,0 +1,27 @@
+.timeline{
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background:   rgb(1, 20, 38);
+    color: white;
+
+    .education-text{
+        margin-bottom: 10px;
+        font-size: 3rem;
+        font-weight: 700;
+        color: blue;
+    }
+    h3{
+        font-size: 25px;
+        padding: 20px;
+    }
+    p{
+        font-size: 20px;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,160 @@
+.home {
+  position: relative;
+    height: 100%;
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    .propic{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 80px;
+      
+
+     
+      img{
+        width: 300px;
+        height: 300px;
+        box-shadow: inset 0 0 0 9px rgb(49, 25, 87);
+        animation: profile_animate 8s ease-in-out infinite 1s ;
+      }
+    }
+  
+    .home-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+      h1 {
+        color: blue;
+        margin: 0px;
+        font-weight: 500;
+        position: relative;
+        overflow: hidden;
+      
+        white-space: nowrap;
+        animation: typingEffectAnimation 2.5s steps(20, end);
+      }
+      
+}
+.home-social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  
+  .home-social-icon{
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 8px 5px rgba(0,0,0,0.2);
+  margin: 13px;
+    color: blue;
+    border-radius: 50%;
+    text-decoration: none;
+    cursor: pointer;
+    animation: float 5s ease-in-out infinite;
+
+
+    &:hover{
+      background-color: black;
+     
+    }
+  }
+
+}
+
+.home-contact-me{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+    button{
+      padding: 10px 70px;
+      font-size: 2rem;
+      background: transparent;
+      color: blue;
+      border: 1.5px solid rgb(82, 76, 76);
+      border-radius: 4px;
+      font-weight: 500;
+
+      &:hover{
+        background:  rgb(1, 20, 38) ;
+       color: blue;
+      }
+    }
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 550px) {
+    .home-text h1 {
+      font-size: 4rem;
+      line-height: 5rem;
+    }
+  }
+  
+  @media only screen  and (min-width: 551px) and (max-width: 768px) {
+    .home-text h1 {
+      font-size: 4rem;
+      line-height: 6rem;
+    }
+  }
+  
+  @media only screen and  (min-width: 551px) and (max-width: 990px) {
+    .home-text h1 {
+      font-size: 6rem;
+      line-height: 8rem;
+    }
+}
+@media only screen and  (min-width: 991px) and (max-width: 2000px) {
+  .home-text h1 {
+    font-size: 8rem;
+    line-height: 10rem;
+  }
+}
+
+
+
+
+@keyframes typingEffectAnimation {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+@keyframes profile_animate{
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  } 
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+}
+  @keyframes float {
+    0%{
+      transform: translatey(0);
+    }
+    50%{
+      transform: translatey(-25px);
+    }
+    100%{
+      transform: translatey(0);
+    }
+  }
