@@ -27,6 +27,7 @@ const Projects = () => {
       <img src={image2} alt="" />
       <h1>Easy Recipe <br />(Recipe App)</h1>
       <a href="https://quality-recipe.netlify.app/" rel="noreferrer" target="_blank">View</a>
+<br />
       <a href="https://github.com/Sajibcoder/Easy-Recipe-App" rel="noreferrer" target="_blank">Source</a>
 
       </li>
