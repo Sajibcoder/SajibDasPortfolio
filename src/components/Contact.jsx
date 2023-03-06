@@ -12,8 +12,8 @@ const Contact = () => {
       />
        <div className="get-in-touch">
 <h3>GET IN TOUCH</h3>
-<input type="text" required placeholder='Your Name' />
-<input type="email" required placeholder='Email Id' />
+<input type="text" required placeholder= "Your Name" />
+<input type="email" required placeholder="Email Id" />
 <textarea rows="8" required placeholder="Message" ></textarea>
 <button className='button'>Send</button>
 <div className='traditional'>
