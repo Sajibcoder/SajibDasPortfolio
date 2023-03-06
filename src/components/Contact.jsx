@@ -15,7 +15,7 @@ const Contact = () => {
 <input type="text" required placeholder= "Your Name" />
 <input type="email" required placeholder="Email Id" />
 <textarea rows="8" required placeholder="Message" ></textarea>
-<button className='button'>Send</button>
+<button type= "submit" className='button'>Send</button>
 <div className='traditional'>
 Wanna contact the traditional way? drop a mail here 
 <div className='email-col'>sajib.brp@gmail.com</div>
