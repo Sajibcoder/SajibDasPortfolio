@@ -12,10 +12,12 @@ const Contact = () => {
       />
        <div className="get-in-touch">
 <h3>GET IN TOUCH</h3>
+    <form>
 <input type="text" required placeholder= "Your Name" />
 <input type="email" required placeholder="Email Id" />
 <textarea rows="8" required placeholder="Message" ></textarea>
 <button type= "submit" className='button'>Send</button>
+    </form>
 <div className='traditional'>
 Wanna contact the traditional way? drop a mail here 
 <div className='email-col'>sajib.brp@gmail.com</div>
