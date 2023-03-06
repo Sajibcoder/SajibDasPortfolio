@@ -19,7 +19,7 @@ const Contact = () => {
 <textarea rows="8" required placeholder="Message" ></textarea>
 <button type= "submit" className='button'>Send</button>
 <div className='traditional'>
-Wanna contact the traditional way? drop a mail here 
+Wanna contact the traditional way? drop a mail here <br/>
 <a href="mailto:sajib.brp@gmail.com" className='email-col'>sajib.brp@gmail.com</a>
 </div>
 </div>
