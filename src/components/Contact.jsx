@@ -20,7 +20,7 @@ const Contact = () => {
 <button type= "submit" className='button'>Send</button>
 <div className='traditional'>
 Wanna contact the traditional way? drop a mail here 
-<div className='email-col'>sajib.brp@gmail.com</div>
+<a href="mailto:sajib.brp@gmail.com" className='email-col'>sajib.brp@gmail.com</a>
 </div>
 </div>
         </form>
